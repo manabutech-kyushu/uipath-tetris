@@ -1,0 +1,138 @@
+[
+  {
+    "Constant": false,
+    "Name": "現在座標Y",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "3",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "現在座標X",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "8",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "ネクストミノ",
+    "TypeFullyQualifiedName": "System.Data.DataTable, System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "カレントミノ",
+    "TypeFullyQualifiedName": "System.Data.DataTable, System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "フィールド",
+    "TypeFullyQualifiedName": "System.Data.DataTable, System.Data.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "点数",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "0",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "ゲームレベル",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "1",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "ゲーム中フラグ",
+    "TypeFullyQualifiedName": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "False",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "移動可能フラグ",
+    "TypeFullyQualifiedName": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "True",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "PIECE_Y",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "4",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "PIECE_X",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "4",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "FIELD_X",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "10",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "FIELD_Y",
+    "TypeFullyQualifiedName": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "20",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "終了フラグ",
+    "TypeFullyQualifiedName": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "False",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "フィールド描画範囲",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"D3:M22\"",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "メッセージ描画セル",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"Y18\"",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "ネクストミノ描画範囲",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"R19:U22\"",
+    "IsLiteral": false
+  }
+]
