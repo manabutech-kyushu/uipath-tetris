@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>440,624</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1155.3333333333333,865.3333333333334</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ボタン処理_上_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -79,7 +79,7 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ボタン処理_上" sap:VirtualizedContainerService.HintSize="450,559.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ボタン処理_上" sap:VirtualizedContainerService.HintSize="450,560.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="現在セル" />
       <Variable x:TypeArguments="x:Boolean" Name="移動判定" />
@@ -89,7 +89,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:HotkeyTriggerV2 BlockEvent="False" DisplayName="ホットキー トリガー" Enabled="True" sap:VirtualizedContainerService.HintSize="388,157.33333333333334" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key="up" KeyModifiers="None" SchedulingMode="Concurrent" TriggerId="bed6b2dd-d72a-4ddc-b3dc-40009d86a380" UseWindowsHotKey="False" />
+    <ui:HotkeyTriggerV2 BlockEvent="False" DisplayName="ホットキー トリガー" Enabled="True" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key="up" KeyModifiers="None" SchedulingMode="Sequential" TriggerId="bed6b2dd-d72a-4ddc-b3dc-40009d86a380" UseWindowsHotKey="False" />
     <ui:LogMessage DisplayName="メッセージをログ" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;上ボタン処理&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ミノ移動_ハードドロップ.xaml - ワークフロー ファイルを呼び出し" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="移動\ミノ移動_ハードドロップ.xaml">
       <ui:InvokeWorkflowFile.Arguments>

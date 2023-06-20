@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1125.3333333333333,865.3333333333334</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>440,625.3333333333334</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ボタン処理_スペース_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -85,7 +85,7 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ボタン処理_スペース" sap:VirtualizedContainerService.HintSize="450,559.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ボタン処理_スペース" sap:VirtualizedContainerService.HintSize="450,560.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="現在セル" />
       <Variable x:TypeArguments="x:Boolean" Name="回転判定" />
@@ -95,7 +95,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:HotkeyTriggerV2 BlockEvent="True" DisplayName="ホットキー トリガー" Enabled="True" sap:VirtualizedContainerService.HintSize="388,157.33333333333334" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key=" " KeyModifiers="None" SchedulingMode="Concurrent" TriggerId="0d827b54-1d80-490c-8971-9358e2ee4b26" UseWindowsHotKey="False" />
+    <ui:HotkeyTriggerV2 BlockEvent="True" DisplayName="ホットキー トリガー" Enabled="True" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key=" " KeyModifiers="None" SchedulingMode="Sequential" TriggerId="0d827b54-1d80-490c-8971-9358e2ee4b26" UseWindowsHotKey="False" />
     <ui:LogMessage DisplayName="メッセージをログ" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Spaceボタン処理&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ゲーム画面\ゲームスタート.xaml - ワークフロー ファイルを呼び出し" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ゲーム画面\ゲームスタート.xaml">
       <ui:InvokeWorkflowFile.Arguments>

@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1125.3333333333333,1426</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>599.3333333333334,1427.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>startトリガー1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -99,15 +99,15 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="startトリガー1" sap:VirtualizedContainerService.HintSize="739.3333333333334,1361.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="startトリガー1" sap:VirtualizedContainerService.HintSize="609.3333333333334,1362.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ufa:FormTriggerActivity x:TypeArguments="ufa:FormInfoTriggerEventArgs" MessageId="{x:Null}" Tag="{x:Null}" DisplayName="Form trigger activity" Enabled="True" Event="click.start" FormId="a0cedd06-3642-44ba-87dd-69b066411a19" sap:VirtualizedContainerService.HintSize="677.3333333333334,166" sap2010:WorkflowViewState.IdRef="FormTriggerActivity`1_1" SchedulingMode="Concurrent" TriggerId="d1e4226a-9483-463a-b30c-32432191a234" />
-    <ui:LogMessage DisplayName="メッセージをログ" sap:VirtualizedContainerService.HintSize="677.3333333333334,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;すたーとボタン処理&quot;]" />
-    <ui:IfElseIf DisplayName="条件分岐 (else if)" sap:VirtualizedContainerService.HintSize="677.3333333333334,908.6666666666666" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+    <ufa:FormTriggerActivity x:TypeArguments="ufa:FormInfoTriggerEventArgs" MessageId="{x:Null}" Tag="{x:Null}" DisplayName="Form trigger activity" Enabled="True" Event="click.start" FormId="a0cedd06-3642-44ba-87dd-69b066411a19" sap:VirtualizedContainerService.HintSize="547.3333333333334,167.33333333333334" sap2010:WorkflowViewState.IdRef="FormTriggerActivity`1_1" SchedulingMode="Sequential" TriggerId="d1e4226a-9483-463a-b30c-32432191a234" />
+    <ui:LogMessage DisplayName="メッセージをログ" sap:VirtualizedContainerService.HintSize="547.3333333333334,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;すたーとボタン処理&quot;]" />
+    <ui:IfElseIf DisplayName="条件分岐 (else if)" sap:VirtualizedContainerService.HintSize="547.3333333333334,908.6666666666666" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
       <ui:IfElseIf.ConditionBlocks>
         <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
           <ui:IfElseIfBlock BlockType="If" Condition="[ゲーム中フラグ = False]">

@@ -76,7 +76,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:HotkeyTriggerV2 BlockEvent="True" DisplayName="ホットキー トリガー" Enabled="True" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key="enter" KeyModifiers="None" SchedulingMode="Concurrent" TriggerId="330a7675-016e-485e-b77b-42280a78a614" UseWindowsHotKey="False" />
+    <ui:HotkeyTriggerV2 BlockEvent="True" DisplayName="ホットキー トリガー" Enabled="True" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key="enter" KeyModifiers="None" SchedulingMode="Sequential" TriggerId="330a7675-016e-485e-b77b-42280a78a614" UseWindowsHotKey="False" />
     <ui:LogMessage DisplayName="メッセージをログ" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Enterボタン処理&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ミノ回転.xaml - ワークフロー ファイルを呼び出し" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="移動\ミノ回転.xaml">
       <ui:InvokeWorkflowFile.Arguments>
